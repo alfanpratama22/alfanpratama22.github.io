@@ -1,0 +1,366 @@
+/* h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    text-align: center;
+}
+h4{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    box-shadow: 20px 10px grey;
+    text-decoration: none;
+}
+div h3:hover {
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+}
+h2:hover{
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+}
+td strong:hover{
+    background-color: lightskyblue;
+}
+td p:hover{
+    background-color: grey;
+}
+td a{
+    text-decoration: none;
+    color: white;
+}
+td a:hover{
+    background-color: lightgrey;
+}
+p img {
+    border-radius: 50%;
+}
+a u{
+    text-decoration: none;
+    color: black;
+} */
+
+/* kontak */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900|Rubik:300,400,500,700,900');
+
+/* *
+{
+    
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body
+{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: #fff;
+    color: #000000;
+    margin-top: 10px;
+}
+div
+{
+    display: block;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+} */
+
+
+.button {
+  display: inline-block;
+  background: #0064c2;
+  border-radius: 5px;
+  height: 48px;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.button a {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 48px;
+  color: #FFFFFF;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.contact_info {
+  width: 100%;
+  padding-top: 70px;
+}
+
+.contact_info_item {
+  width: calc((100% - 60px) / 3);
+  height: 100px;
+  border: solid 1px #e8e8e8;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding-left: 32px;
+  padding-right: 15px;
+}
+
+.contact_info_image {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+}
+
+.contact_info_image img {
+  max-width: 100%;
+}
+
+.contact_info_content {
+  padding-left: 17px;
+}
+
+.contact_info_title {
+  font-weight: 500;
+}
+
+.contact_info_text {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*********************************
+4.1 Contact Form
+*********************************/
+
+.contact_form {
+  padding-top: 85px;
+}
+
+.contact_form_container {}
+
+.contact_form_title {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 37px;
+}
+
+.contact_form_inputs {
+  margin-bottom: 30px;
+}
+
+.input_field {
+  width: calc((100% - 60px) / 3);
+  height: 50px;
+  padding-left: 25px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  outline: none;
+  color: #0e8ce4;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.input_field:focus,
+.text_field:focus {
+  border-color: #000000;
+}
+
+.input_field:hover,
+.text_field:hover {
+  border-color: #000000;
+}
+
+.input_field::-webkit-input-placeholder,
+.text_field::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.input_field:-moz-placeholder,
+.text_field:-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.input_field::-moz-placeholder,
+.text_field::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.input_field:-ms-input-placeholder,
+.text_field:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.input_field::input-placeholder,
+.text_field::input-placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.text_field {
+  width: 100%;
+  height: 160px;
+  padding-left: 25px;
+  padding-top: 15px;
+  border: solid 1px #000000;
+  border-radius: 5px;
+  color: #0e8ce4;
+  outline: none;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.contact_submit_button {
+  padding-left: 35px;
+  padding-right: 35px;
+  color: #FFFFFF;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+.panel {
+  width: 100%;
+  height: 50px;
+  background: #fafafa;
+  margin-top: 120px;
+}
+
+
+@media only screen and (max-width: 991px) {
+
+  .contact_info_item {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact_info_item:last-child {
+    margin-bottom: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 767px) {
+
+  .input_field {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+
+  .input_field:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+
+@media only screen and (max-width: 575px) {
+
+  .contact_submit_button {
+    font-size: 13px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+}
+
+/* service */
+#services {
+    margin-top: 50px;
+  }
+  
+  section.our-services .service-item {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 50px 30px;
+  }
+  
+  section.our-services .service-item .icon img {
+    max-width: 100%;
+  }
+  
+  section.our-services .service-item h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #232323;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .our-services .left-content h4 {
+    font-size: 19px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  
+  .our-services .left-content .blue-button {
+    margin-top: 25px;
+  }
+  
+  .down-services {
+    border-top: 1px solid #ddd;
+    margin-top: 60px;
+    padding-top: 60px;
+  }
+  
+  .accordion li {
+    position: relative;
+  }
+
+  .scroll-top {
+    z-index: 9999;
+    position: fixed;
+    bottom: 2.5%;
+    right: 4%;
+  }
+  
+  .scroll-top i {
+    color: #fff;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 20px;
+    background-color: #999;
+    padding: 10px 12px 14px;
+  }
+  
+  .scroll-top i:hover {
+    background-color: #000;
+  }
+
